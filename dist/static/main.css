@@ -1,0 +1,244 @@
+/* @font-face {font-family: 'webfont';
+    src: url('webfont.eot'); /* IE9*/
+    src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('webfont.woff') format('woff'), /* chrome、firefox */
+    url('webfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('webfont.svg#webfont') format('svg'); /* iOS 4.1- */
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  /* font-family: "微软雅黑"; */
+  /* font-family: PingFangSC-Regular, sans-serif; */
+  /* font-family:"webfont" !important; */
+  /* font-size:16px;font-style:normal; */
+  /* -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale; */
+  box-sizing: border-box;
+
+}
+
+a {
+  color:#333
+}
+
+.db {
+  display: block;
+}
+
+a:hover {
+  color: #444;
+}
+
+html,body{
+  /* font-size: 62.5% */
+  height: 100%
+}
+
+.oh {
+  overflow: hidden;
+}
+
+ul {
+  padding: 0;
+}
+
+.codeRed {
+  color: #eb3a40
+}
+.codeRedB {
+  background: #eb3a40;
+}
+
+.w100 {
+  width: 100%;
+}
+
+.head {
+  position: absolute;
+  left: 0.0px;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  line-height: 5rem;
+  background-image: linear-gradient(-27deg, #ED3A40 0% ,#F77B6C 95%);
+}
+
+
+
+.mainBox {
+  width: 100%;
+  background-color: #fff;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  /* box-shadow: 0rem 2rem 2rem 9px #999; */
+}
+
+.posa {
+  position: absolute;
+}
+
+.posr {
+  position: relative;
+}
+
+.posaLeft {
+  left: 0;
+}
+
+.posaRight {
+  right: 0;
+}
+
+.tac {
+  text-align: center;
+}
+
+.jac {
+  justify-content: center;
+}
+
+#app * {
+  transition: all .2s;
+}
+
+
+
+
+body {
+    font-size: 1.6rem;
+    background: #ddd;
+}
+li {
+  list-style-type: none
+}
+
+img {
+  vertical-align: top;
+}
+
+a {
+  transition: all .2s;
+}
+
+a:hover, a:focus {
+  color: #005197;
+  text-decoration: none;
+}
+
+.container {
+  padding-right: .5rem;
+  padding-left: .5rem;
+}
+
+.row {
+  margin-left: .5rem;
+  margin-right: .5rem;
+}
+
+.mb5 {
+  margin-bottom: .5rem;
+}
+
+.mt5 {
+  margin-top: .5rem;
+}
+
+.pb5 {
+  padding-bottom: .5rem;
+}
+
+.pt5 {
+  padding-top: .5rem;
+}
+
+.fff {
+  color: #fff
+}
+
+.mt10 {
+  margin-top: 1rem;
+}
+
+.mt20 {
+  margin-top: 2rem;
+}
+
+.mb10 {
+  margin-bottom: 1rem;
+}
+.mb20 {
+  margin-bottom: 2rem;
+}
+
+.ml10 {
+  margin-left: 1rem;
+}
+
+.mr10 {
+  margin-right: 1rem;
+}
+
+.pt10 {
+  padding-top: 1rem;
+}
+
+.pb10 {
+  padding-bottom: 1rem;
+}
+
+.pb20 {
+  padding-bottom: 2rem;
+}
+
+.pb30 {
+  padding-bottom: 3rem;
+}
+
+.pr10 {
+  padding-right: 1rem;
+}
+
+.pl10 {
+  padding-left: 1rem;
+}
+
+.w100 {
+  width: 100%;
+}
+
+.ml-100 {
+  margin-left: -100%;
+}
+
+.ml-200 {
+  margin-left: -200%;
+}
+
+.ml-50 {
+  margin-left: -50%;
+}
+
+.w50 {
+  width: 50%;
+}
+
+.w60 {
+  width: 60%;
+}
+
+.w70 {
+  width: 70%;
+}
+
+.mauto {
+  margin: 0 auto;
+}
+
+.dib {
+  display: inline-block;
+}

@@ -1,0 +1,103 @@
+.carousel-inner {
+  height: 24vh;
+  overflow-y: hidden;
+}
+
+.mt100 {
+  margin-top: 14rem
+}
+
+.l0 {
+  left: 0;
+}
+// @media (min-width: 500px) {
+//   .carousel-inner {
+//     height: 30vh;
+//     overflow-y: hidden;
+//   }
+//   .mt100 {
+//     margin-top: 18.5rem
+//   }
+// }
+// @media (min-width: 780px) {
+//   .carousel-inner {
+//     height: 46vh;
+//     overflow-y: hidden;
+//   }
+//
+//   .mt100 {
+//     margin-top: 30rem
+//   }
+// }
+//
+// @media (min-width: 1200px) {
+//   .carousel-inner {
+//     height: 70vh;
+//     overflow-y: hidden;
+//   }
+//   .mt100 {
+//     margin-top: 48rem
+//   }
+// }
+//
+// @media (max-width: 400px) {
+//   .carousel-inner {
+//     height: 21vh;
+//     overflow-y: hidden;
+//   }
+//
+//   .mt100 {
+//     margin-top: 12rem
+//   }
+// }
+//
+// @media (max-width: 300px) {
+//   .carousel-inner {
+//     height: auto;
+//     overflow-y: hidden;
+//   }
+//
+//   .mt100 {
+//     margin-top: 12rem
+//   }
+// }
+
+
+.platmacth {
+  .dib {
+    width: 50%;
+    border: 1px solid #ff4747;
+    line-height: 3rem;
+    background: #fff;
+    text-align: center;
+    color: #ff4747
+  }
+  .macthPageBtnA {
+  border-radius: 5rem 0 0 5rem;
+  }
+  .macthPageBtnB {
+    border-radius: 0 5rem 5rem 0;
+    margin-left: -5px;
+
+  }
+
+  .bgRed {
+    background: #ff4747;
+    color: #FFF
+  }
+}
+
+
+.plat1,.plat2 {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.slideleft-enter,
+.slideleft-leave-to {
+  opacity: 0;
+  transform: translateX(100%);
+}

@@ -1,0 +1,93 @@
+#home {
+  padding-top: 5.5rem
+}
+
+.head {
+  position: absolute;
+  left: 0.0px;
+  top: 0;
+}
+.isFixed {
+  position: fixed;
+  z-index: 999
+}
+
+.head .container {
+  /* padding-right: 15px; */
+    /* padding-left: 15px; */
+    margin-right: auto;
+    /* margin-left: auto; */
+}
+
+.head {
+  width: 100%;
+  text-align: center;
+  line-height: 3rem;
+  background-image: linear-gradient(-27deg, #ED3A40 0% ,#F77B6C 95%);
+}
+
+.head .h1x {
+  position: relative;
+  top: 1rem;
+  font-size: 1.8rem;
+  color: #fff;
+}
+
+.head .fa {
+  font-size: 2rem;
+  color: #fff;
+  transition: all .2s
+}
+.head .fa:hover {
+  color: #7af607
+}
+
+/* .head .fa::before {
+  position: absolute;
+} */
+
+.homenav .fa {
+  position: relative;
+  top: -1.5rem
+}
+
+/* 内容区 */
+
+.mainBox {
+  width: 100%;
+  background-color: #fff;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  /* box-shadow: 0rem 2rem 2rem 9px #999; */
+}
+/* .userimg img{
+  width: 31.5rem;
+} */
+#userh {
+  width: 3rem;
+}
+
+.time {
+  font-size: 1.3rem;
+  line-height: 3rem;
+}
+
+.thumbnail {
+  border: none;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
+.gps {
+  /* width: 20rem; */
+  padding:0 .5rem;
+  display: inline;
+  background: #dedede;
+  border-radius: 2rem
+}
+
+.gps .fa {
+  color: rgb(250, 30, 111)
+}

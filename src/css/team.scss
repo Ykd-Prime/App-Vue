@@ -1,0 +1,533 @@
+
+#team {
+  overflow: hidden;
+}
+
+.tab {
+  width: 200%;
+}
+
+.gps {
+  padding:.2rem 1rem;
+  display: inline;
+  background: #fff;
+  border-radius: 2rem;
+  box-shadow: 0px 2px 4px #b7b7b7;
+  i {
+    color:red
+  }
+}
+
+.yourTeam {
+  background: #fff;
+  width: 50%;
+  float: left;
+}
+.myTeam {
+  margin-left: 0%;
+  background: #fff;
+  width: 50%;
+  float: left;
+  .tac .fa {
+    font-size: 3rem;
+    color:#f25b56
+  }
+
+  .fa-square {
+    color:#f25b56
+  }
+
+  .col-xs-4 span {
+    display: block;
+  }
+
+  .col-xs-4 {
+    padding: 1.5rem 0
+  }
+
+  .row {
+    border-top:1px #d2d2d2 solid;
+    border-bottom:1px #d2d2d2 solid;
+  }
+}
+.teamBanner {
+  position: relative;
+  .tac {
+    position: relative;
+    text-align: justify;
+    overflow: hidden;
+    // background-image: url('../img/1xx.jpg');
+    // background-size: cover, 100%;
+    // background-position: 50% 50%;
+    // background-attachment: fixed;
+    >img {
+      filter: blur(1px);
+      transform: translateX(-2px);
+      width: 101%;
+    }
+    .tn {
+      position: absolute;
+      top: 70%;
+      text-align: center;
+      color: #fff;
+      width: 100%;
+      font-size: 2rem;
+    }
+    .teamHead {
+      position: absolute;
+      top: 2rem;
+      left: 40%;
+      width: 20%;
+      text-align: center;
+      img {
+        width: 100%;
+        border-radius: 50%;
+      }
+    }
+  }
+}
+
+.member {
+  position: relative;
+  color: #444;
+  padding: .5rem 0;
+
+  .tmember {
+    padding: .5rem 0;
+
+    .memberH {
+      // position: absolute;
+      width: 10rem;
+      height: 2rem;
+      float: right;
+
+      >img {
+        border: 1px solid #fff;
+        border-radius: 50%;
+        width: 20%;
+        float: right;
+        margin-left: -.4rem;
+      }
+    }
+  }
+  .leader {
+    padding: .5rem 0;
+  }
+}
+
+
+
+@media (min-width: 321px) {
+  .teamBanner {
+    .tac {
+      .teamHead {
+        top: 2.5rem
+      }
+      .tn {
+        top:65%
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .teamBanner {
+    .tac {
+      .teamHead {
+        top: 5rem
+      }
+      .tn {
+        top:70%;
+        font-size: 3rem
+      }
+    }
+  }
+}
+
+.w100 {
+  background: #fff;
+}
+
+// .item {
+//   position: absolute;
+//   left: 26%;
+//   top: -1rem;
+//   width: 4rem;
+//   height: .5rem;
+//   background: #fff;
+//   display: block;
+//   transform: translateX(-2.3rem);
+// }
+
+.color333 {
+  color: #fff
+}
+
+#team {
+  padding-top: 5.5rem
+}
+
+/* .hleft {
+  left: 25%;
+  transform: translateX(-4vh);
+} */
+.trainList {
+  margin-left: 0%;
+}
+
+.tTab {
+  margin-left: -50%;
+  // display: none;
+}
+
+
+
+.head {
+  line-height: 5rem;
+  z-index: 9;
+  .h1x,.h0x {
+    position: relative;
+    font-size: 1.8rem;
+    color: #d8d8d8;
+  }
+  .glyphicon {
+    font-size: 2rem;
+    color: #fff;
+    transition: all .2s
+  }
+  .glyphicon:hover {
+    color: #7af607
+  }
+  .head .h1x {
+    position: relative;
+    // top: 1rem;
+    font-size: 1.8rem;
+    color: #fff;
+  }
+
+  .h1x {
+    position: relative;
+    color: #fff;
+    .item {
+      top: 3.8rem;
+    }
+  }
+
+  .h1x .fa {
+    font-size: 2rem;
+    color: #fff;
+    transition: all .2s
+  }
+  .h1x .fa:hover {
+    color: #7af607
+  }
+
+  /* .head .fa::before {
+    position: absolute;
+  } */
+
+  .h1x .fa {
+    position: absolute;
+    top: 1.5rem
+  }
+
+}
+.posaLeft {
+  left: 1.5rem;
+}
+
+.posaRight {
+  right: 1.5rem;
+}
+
+.homenav .glyphicon {
+  top: -1.5rem
+}
+
+.h0x .fa {
+  top:1.5rem;
+}
+
+
+.train {
+  width: 200%;
+  padding-top: 5rem;
+  .trainList,
+  .calendar {
+    width: 50%;
+    float: left;
+  }
+
+  .page {
+    position: relative;
+    background: #fff;
+    padding-top: 2.5rem;
+    padding-bottom: .1rem;
+    margin-bottom: 1rem;
+  }
+
+.trainList {
+  // padding-top: 2.5rem;
+  position: relative;
+  .gps {
+    padding:.2rem 1rem;
+    display: inline;
+    background: #fff;
+    border-radius: 0rem;
+    box-shadow: 0px 0px 0px #b7b7b7;
+    i {
+      color:red
+    }
+  }
+  .time {
+    padding: 1.2rem .7rem;
+    i {
+      color: red
+    }
+  }
+  .note {
+    position: relative;
+    width: 95%;
+    margin: 0 auto;
+    padding: 2rem;
+    background: #e2e2e2;
+    .fa {
+      position: absolute;
+      top: -.5rem;
+      right: 10%;
+      color: #646363;
+      transform: scale(1.3) rotateY(180deg);
+    }
+  }
+  .member {
+    padding: .2rem .7rem;
+    border-bottom: 1px dashed #bebcbc;
+    i {
+      color: red
+    }
+    .menberHead {
+      display: inline-block;
+      width: 20%;
+      margin-left: -.5rem;
+      padding: 0 .4rem;
+      text-align: center;
+      img {
+        width: 100%;
+        border-radius: 50%;
+      }
+
+    }
+
+    .check {
+      visibility: hidden;
+    }
+
+    .lv {
+      padding: .2rem .5rem;
+      border-radius: 3rem;
+      background: #04ff40;
+      color: #fff;
+      visibility: inherit;
+    }
+  }
+
+
+  .setBtn {
+    width: 9rem;
+    margin: 1.5rem auto;
+    padding: .5rem 2rem;
+    border-radius: 3rem;
+    color: #696767;
+    border: .1rem solid #bdbbbb;
+  }
+  .trainStatus{
+    position: absolute;
+    top: .3rem;
+    right: 0rem;
+
+  }
+  .status {
+    color: #fff;
+    background-image: linear-gradient(78deg, #ED3A40 0%, #F77B6C 95%);
+    border-radius: 0 0 0 3rem;
+    width: auto;
+    text-align: right;
+    padding: .5rem 1.5rem;
+  }
+}
+
+  .calendar {
+
+  }
+}
+
+.tty5rem {
+  transform: translateY(-5rem);
+}
+
+.edit {
+
+  background: #fff;
+  padding: 1rem;
+  .date {
+    position: relative;
+    border-radius: .3rem;
+    border: .1rem #bdbbbb solid;
+    margin: 0 2rem;
+    padding: .5rem;
+    color: #868484;
+  }
+
+  .dateOpt {
+    background: #e3e3e3;
+    margin: 0 2rem;
+    padding: .5rem;
+    height: 8rem;
+    text-align: center;
+    overflow: hidden;
+    ul {
+      height: 100%;
+      width: 33.3333%;
+      float: left;
+      overflow: scroll;
+    }
+
+
+
+    .notDay {
+      color: rgb(110, 110, 110);
+      display: none;
+    }
+  }
+
+  .hourOpt {
+    position: relative;
+    border-radius: .3rem;
+    border: .1rem #bdbbbb solid;
+    margin: 0 2rem;
+    padding: .5rem;
+    color: #868484;
+    overflow: hidden;
+    width: 33.3333%;
+    display: inline-block;
+  }
+
+  .faDown {
+    position: absolute;
+    top: -.01rem;
+    right: 0;
+    border-radius: 0 .3rem .3rem 0;
+    height: 100%;
+    width: 4rem;
+    text-align: center;
+    line-height: 2;
+    background: #bdbbbb;
+    display: block;
+  }
+}
+
+.bgfff {
+  background: #666666;
+  color:#fff
+}
+
+
+.managa {
+  .row {
+    .tac {
+      a {
+        display: block;
+      }
+    }
+  }
+}
+
+
+.h1right {
+  left: 25%;
+}
+
+.h2right {
+  left: 55%;
+}
+
+
+.h2xitem {
+  position: absolute;
+  width: 33.33333333%;
+  height: .5rem;
+  left: 33.33333333%;
+  top: 3.9rem;
+  span {
+    display: block;
+    width: 3rem;
+    height: .5rem;
+    background: #fff;
+    margin: 0 auto;
+    border-radius: .2rem
+  }
+}
+
+.h0xItem {
+  position: absolute;
+  width: 33.33333333%;
+  height: .5rem;
+  left: 33.33333333%;
+  top: 3.9rem;
+  span {
+    display: block;
+    width: 3rem;
+    height: .5rem;
+    background: #fff;
+    margin: 0 auto;
+    border-radius: .2rem
+  }
+}
+
+
+
+
+.taskHome {
+  padding: 5.5rem 0 0 0;
+  .task {
+    width: 100%;
+    overflow: hidden;
+    .warp {
+      width: 300%;
+      .undone,
+      .comp,
+      .repair {
+        width: 33.33333333%;
+        float: left;
+        background: #fff;
+        padding: 0 .5rem;
+        border-radius: .5rem
+      }
+    }
+  }
+}
+
+.white {
+  background: #fff;
+  color: #999;
+}
+
+.blackColor {
+  color: #1b1b1b;
+  span {
+    color: #1b1b1b;
+
+  }
+}
+
+.left133 {
+  left: 133.33333333%;
+}
+
+.left233 {
+  left: 233.33333333%;
+}
+
+.right133 {
+  right: 133.33333333%
+}
