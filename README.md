@@ -5,7 +5,7 @@ npm install
 ```
 2. 开始
 ```
-npm run serve
+npm run dev
 ```
 然后访问http://localhost:8080。
 
